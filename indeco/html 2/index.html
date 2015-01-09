@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Indeco</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jsCarousel-2.0.0.js" type="text/javascript"></script>
+<link href="jsCarousel-2.0.0.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+		$(document).ready(function() {
+				$('#item').jsCarousel({ onthumbnailclick: function(src) {
+					$('#sliderPanel').css('background-image','url(slide/'+src+')');
+				}, autoscroll: false, circular: true, masked: false, itemstodisplay: 6, orientation: 'h' });
+		});
+</script>
+
+</head>
+<body>
+<div id="headerPanel">
+  <div class="container">
+    <header id="header">
+      <div id="logo"><a href="index.html"><img src="images/logo.png" alt="logo" /></a></div>
+      <!--logo ends -->
+      <div id="header-mid">
+        <p>International Development Company</p>
+      </div>
+      <!--header mid ends -->
+      <section id="lang">
+        <div id="dd" class="wrapper-dropdown" tabindex="1"><i class="english"></i>EN
+          <ul class="dropdown">
+            <li><a href="#"><i class="german"></i>GR</a></li>
+          </ul>
+        </div>
+      </section>
+    </header>
+    <!--header ends --> 
+  </div>
+  <!--container ends --> 
+</div>
+<!--header panel ends -->
+
+<div id="sliderPanel">
+  <div class="container">
+  	<div id="menu">
+      <ul>
+        <li class="home active"><a href="index.html">home</a></li>
+        <li class="who"><a href="who-we-are.html">who we are</a></li>
+        <li class="areas"><a href="areas-of-interest.html">Areas of interest</a></li>
+        <li class="projects"><a href="projects.html">Projects</a></li>
+        <li class="job"><a href="job.html">Job</a></li>
+        <li class="contact"><a href="contact-us.html">Contact Us</a></li>
+        <li class="login"><a href="login.html">login</a></li>
+      </ul>
+    </div>
+    <!--menu ends -->
+    
+    <div id="slider">
+      <div id="item">
+        <div><img src="images/slide-img1.jpg" alt="" /></div>
+        <div><img src="images/slide-img2.jpg" alt="" /></div>
+        <div><img src="images/slide-img1.jpg" alt="" /></div>
+        <div><img src="images/slide-img2.jpg" alt="" /></div>
+        <div><img src="images/slide-img1.jpg" alt="" /></div>
+        <div><img src="images/slide-img2.jpg" alt="" /></div>
+        <div><img src="images/slide-img1.jpg" alt="" /></div>
+        <div><img src="images/slide-img2.jpg" alt="" /></div>
+        <div><img src="images/slide-img1.jpg" alt="" /></div>
+        <div><img src="images/slide-img2.jpg" alt="" /></div>
+        <div><img src="images/slide-img1.jpg" alt="" /></div>
+        <div><img src="images/slide-img2.jpg" alt="" /></div>
+      </div>
+    </div><!--slider ends --> 
+  </div><!--container ends -->
+</div><!--menu panel ends -->
+
+<div id="featurePanel">
+	<h1 class="heading">indeco <span>FEATURES area</span></h1>
+  <div class="container">
+    <div id="feature">
+    	<div class="box">
+      	<span class="img"><img src="images/architecture.png" alt=""></span>
+        <span class="brd">
+        <h3>ARCHITECTURE AND CONSTRUCTION</h3>
+        <p>Lorem ipsum dolor sit amet, consecteturadipiscing elit. Praesent cursus ante nec sapien</p>
+        <a href="#" class="readmore">Read More</a>
+        </span>
+      </div><!--box ends -->
+      
+      <div class="box">
+      	<span class="img"><img src="images/infrastructure.png" alt=""></span>
+        <span class="brd">
+        <h3>INFRASTRUCTURE ENGINEERING</h3>
+        <p>Lorem ipsum dolor sit amet, consecteturadipiscing elit. Praesent cursus ante nec sapien</p>
+        <a href="#" class="readmore">Read More</a>
+        </span>
+      </div><!--box ends -->
+      
+      <div class="box">
+      	<span class="img"><img src="images/environmental.png" alt=""></span>
+        <span class="brd">
+        <h3>ENVIRONMENTAL STUDIES AND PROJECTS</h3>
+        <p>Lorem ipsum dolor sit amet, consecteturadipiscing elit. Praesent cursus ante nec sapien</p>
+        <a href="#" class="readmore">Read More</a>
+        </span>
+      </div><!--box ends -->
+      
+      <div class="box last">
+      	<span class="img"><img src="images/cultural.png" alt=""></span>
+        <span class="brd">
+        <h3>CULTURAL HERITAGE AND CULTURE</h3>
+        <p>Lorem ipsum dolor sit amet, consecteturadipiscing elit. Praesent cursus ante nec sapien</p>
+        <a href="#" class="readmore">Read More</a>
+        </span>
+      </div><!--box ends -->
+    </div><!--feature ends -->
+    <div style="clear:both; padding:50px 0; overflow:hidden;"><img src="images/feature-bottom-bg.jpg" alt=""></div>
+  </div><!--container ends -->   
+</div><!--feature panel ends -->
+
+<div id="srvPanel">
+  <div class="container">
+    <div id="srv">
+    	
+      <div class="box">
+      	<h3>WHO ARE WE?</h3>
+        <img src="images/who-are-we.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis condimentum nibh, vitae ultricies est accumsan eget. Phasellus eu pharetra lacus</p>
+      </div><!--box ends -->
+      
+      <div class="box">
+      	<h3>WHAT DO WE DO?</h3>
+        <img src="images/what-do-we-do.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis condimentum nibh, vitae ultricies est accumsan eget. Phasellus eu pharetra lacus</p>
+      </div><!--box ends -->
+      
+      <div class="box last">
+      	<h3>PROJECTS</h3>
+        <img src="images/projects.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis condimentum nibh, vitae ultricies est accumsan eget. Phasellus eu pharetra lacus</p>
+      </div><!--box ends -->
+      
+    </div><!--srv ends -->
+  </div><!--container ends -->   
+</div><!--srv panel ends -->
+
+<div style="clear:both;"></div>
+<div id="footer-wrap">
+  <div class="container">
+    <div id="footer">
+      <div id="footer-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="who-we-are.html">who we are</a></li>
+          <li><a href="areas-of-interest.html">Areas of interest</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="job.html">Job</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <!--footer menu ends -->
+      <div class="copyright">
+        <p>© 2014 Indeco Ltd All Rights Reserved.</p>
+      </div><!--copyright ends --> 
+    </div><!--footer ends --> 
+  </div><!--container ends --> 
+</div><!--footer wrap ends -->
+<script type="text/javascript">
+
+			function DropDown(el) {
+				this.dd = el;
+				this.initEvents();
+			}
+			DropDown.prototype = {
+				initEvents : function() {
+					var obj = this;
+
+					obj.dd.on('click', function(event){
+						$(this).toggleClass('active');
+						event.stopPropagation();
+					});	
+				}
+			}
+
+			$(function() {
+
+				var dd = new DropDown( $('#dd') );
+
+				$(document).click(function() {
+					// all dropdowns
+					$('.wrapper-dropdown-5').removeClass('active');
+				});
+
+			});
+
+		</script>
+</body>
+</html>

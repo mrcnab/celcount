@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Indeco</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> 
+</head>
+<body>
+<div id="headerPanel">
+  <div class="container">
+    <header id="header-login">
+      <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+      <p class="txt">International Development Company</p>
+      <section id="lang">
+        <div id="dd" class="wrapper-dropdown" tabindex="1"><i class="english"></i>EN
+          <ul class="dropdown">
+            <li><a href="#"><i class="german"></i>GR</a></li>
+          </ul>
+        </div>
+      </section>
+    </header>    <!--header ends --> 
+  </div>  <!--container ends --> 
+</div><!--header panel ends -->
+
+<div id="fullpage">
+    <div class="container">
+    	<div id="login">
+        <div id="login-form">
+        	<h1 class="heading-login">login <span>area</span></h1>
+          <small>Don't have an account? <a href="#">Sign up for free!</a></small>
+          <p><input type="text" value="Email address:" class="txtbox" /></p>
+          <p><input type="password" value="Password:" class="txtbox" /></p>
+          <p><input type="checkbox" value="Remember me:"> <strong>Remember me:</strong></p>
+          <p><input type="submit" value="Send" class="submit" /></p>
+          <p><a href="#" class="forgot">Forgot your password?</a></p>
+          </div><!--contact form ends -->
+        </div><!--contact us ends -->
+    </div><!--container ends -->
+</div><!--fullpage ends -->
+
+<div style="clear:both;"></div>
+<div id="footer-wrap">
+  <div class="container">
+    <div id="footer">
+      <div id="footer-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="who-we-are.html">who we are</a></li>
+          <li><a href="areas-of-interest.html">Areas of interest</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="job.html">Job</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <!--footer menu ends -->
+      <div class="copyright">
+        <p>© 2014 Indeco Ltd All Rights Reserved.</p>
+      </div><!--copyright ends --> 
+    </div><!--footer ends --> 
+  </div><!--container ends --> 
+</div><!--footer wrap ends -->
+<script type="text/javascript">
+
+			function DropDown(el) {
+				this.dd = el;
+				this.initEvents();
+			}
+			DropDown.prototype = {
+				initEvents : function() {
+					var obj = this;
+
+					obj.dd.on('click', function(event){
+						$(this).toggleClass('active');
+						event.stopPropagation();
+					});	
+				}
+			}
+
+			$(function() {
+
+				var dd = new DropDown( $('#dd') );
+
+				$(document).click(function() {
+					// all dropdowns
+					$('.wrapper-dropdown-5').removeClass('active');
+				});
+
+			});
+
+		</script>
+</body>
+</html>

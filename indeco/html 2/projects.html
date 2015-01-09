@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Indeco</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> 
+</head>
+<body>
+<div id="headerPanel">
+  <div class="container">
+    <header id="header">
+      <div id="logo"><a href="index.html"><img src="images/logo.png" alt="logo" /></a></div>
+      <!--logo ends -->
+      <div id="header-mid">
+        <p>International Development Company</p>
+      </div>
+      <!--header mid ends --> 
+      <section id="lang">
+        <div id="dd" class="wrapper-dropdown" tabindex="1"><i class="english"></i>EN
+          <ul class="dropdown">
+            <li><a href="#"><i class="german"></i>GR</a></li>
+          </ul>
+        </div>
+      </section>
+    </header>
+    <!--header ends --> 
+  </div>
+  <!--container ends --> 
+</div>
+<!--header panel ends -->
+
+<div id="menuPanel">
+  <div class="container">
+  	<div id="menu">
+      <ul>
+        <li class="home"><a href="index.html">home</a></li>
+        <li class="who"><a href="who-we-are.html">who we are</a></li>
+        <li class="areas"><a href="areas-of-interest.html">Areas of interest</a></li>
+        <li class="projects active"><a href="projects.html">Projects</a></li>
+        <li class="job"><a href="job.html">Job</a></li>
+        <li class="contact"><a href="contact-us.html">Contact Us</a></li>
+        <li class="login"><a href="login.html">login</a></li>
+      </ul>
+    </div>
+    <!--menu ends -->
+  </div><!--container ends -->
+</div><!--menu panel ends -->
+
+<div id="bannerPanel">
+  	<div id="banner">
+      <img src="images/projects-banner.jpg" alt="" />
+    </div>
+    <!--banner ends -->
+</div><!--banner panel ends -->
+
+<div id="prjPanel"> 
+	<h1 class="heading">Areas of <span>PROJECTS</span></h1>
+  <div class="container">
+    <div id="prj">
+    	<div class="box">
+      	<div class="img"><img src="images/prj-img1.jpg" alt=""></div>
+        <h3>description project one</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique porta magna, ut venenatis arcu imperdiet id. Aenean tristique porta magna, ut venenatis arcu Aenean tristique porta magna, ut venenatis arcu.Aenean tristique porta magna, ut venenatis arcu.</p>
+				<p>Mauris placerat sit amet nulla eget imperdiet...</p>
+        <p><a href="#" class="readmore">Read More</a></p>
+      </div><!--box ends -->
+      <div class="box">
+      	<div class="img"><img src="images/prj-img2.jpg" alt=""></div>
+        <h3>description project two</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique porta magna, ut venenatis arcu imperdiet id. Aenean tristique porta magna, ut venenatis arcu Aenean tristique porta magna, ut venenatis arcu.Aenean tristique porta magna, ut venenatis arcu.</p>
+				<p>Mauris placerat sit amet nulla eget imperdiet...</p>
+        <p><a href="#" class="readmore">Read More</a></p>
+      </div><!--box ends -->
+      <div class="box last">
+      	<div class="img"><img src="images/prj-img3.jpg" alt=""></div>
+        <h3>description</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique porta magna, ut venenatis arcu imperdiet id. Aenean tristique porta magna, ut venenatis arcu Aenean tristique porta magna, ut venenatis arcu.Aenean tristique porta magna, ut venenatis arcu.</p>
+				<p>Mauris placerat sit amet nulla eget imperdiet...</p>
+        <p><a href="#" class="readmore">Read More</a></p>
+      </div><!--box ends -->
+      
+    </div><!--prj ends -->
+  </div><!--container ends -->   
+</div><!--prj panel ends -->
+
+
+<div style="clear:both;"></div>
+<div id="footer-wrap">
+  <div class="container">
+    <div id="footer">
+      <div id="footer-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="who-we-are.html">who we are</a></li>
+          <li><a href="areas-of-interest.html">Areas of interest</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="job.html">Job</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <!--footer menu ends -->
+      <div class="copyright">
+        <p>© 2014 Indeco Ltd All Rights Reserved.</p>
+      </div><!--copyright ends --> 
+    </div><!--footer ends --> 
+  </div><!--container ends --> 
+</div><!--footer wrap ends -->
+<script type="text/javascript">
+
+			function DropDown(el) {
+				this.dd = el;
+				this.initEvents();
+			}
+			DropDown.prototype = {
+				initEvents : function() {
+					var obj = this;
+
+					obj.dd.on('click', function(event){
+						$(this).toggleClass('active');
+						event.stopPropagation();
+					});	
+				}
+			}
+
+			$(function() {
+
+				var dd = new DropDown( $('#dd') );
+
+				$(document).click(function() {
+					// all dropdowns
+					$('.wrapper-dropdown-5').removeClass('active');
+				});
+
+			});
+
+		</script>
+</body>
+</html>

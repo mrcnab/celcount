@@ -1,0 +1,442 @@
+[03-May-2013 04:47:53] PHP Warning:  require_once(DBAccess.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/wmedesig/public_html/celcount/classes/constants.php on line 5
+[03-May-2013 04:47:53] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'DBAccess.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/wmedesig/public_html/celcount/classes/constants.php on line 5
+[03-May-2013 04:48:15] PHP Warning:  require_once(image.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/wmedesig/public_html/celcount/classes/constants.php on line 6
+[03-May-2013 04:48:15] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'image.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/wmedesig/public_html/celcount/classes/constants.php on line 6
+[03-May-2013 04:48:17] PHP Warning:  require_once(image.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/wmedesig/public_html/celcount/classes/constants.php on line 6
+[03-May-2013 04:48:17] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'image.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/wmedesig/public_html/celcount/classes/constants.php on line 6
+[03-May-2013 04:48:33] PHP Fatal error:  Class 'DBAccess' not found in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 7
+[03-May-2013 04:49:00] PHP Fatal error:  Call to a member function getSingleRecord() on a non-object in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 9
+[03-May-2013 04:49:02] PHP Fatal error:  Call to a member function getSingleRecord() on a non-object in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 9
+[03-May-2013 04:53:26] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:53:26] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:26] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:26] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:53:26] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:26] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:44] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:53:44] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:44] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:44] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:53:44] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:44] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:49] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:53:49] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:49] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:49] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:53:49] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:49] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:55] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:53:55] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:55] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:55] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:53:55] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:53:55] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:16] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:54:16] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:16] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:16] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:54:16] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:16] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:18] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:54:18] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:18] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:18] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:54:18] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:18] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:21] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:54:21] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:21] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:21] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:54:21] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:21] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:26] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:54:26] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:26] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:26] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:54:26] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:26] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:31] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:54:31] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:31] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:31] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:54:31] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:31] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:41] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:54:41] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:41] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:41] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 48
+[03-May-2013 04:54:41] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 04:54:41] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/classes/Database.admin.inc.php on line 40
+[03-May-2013 05:16:39] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 3
+[03-May-2013 05:20:26] PHP Fatal error:  Call to undefined method DBAccess::query() in /home/wmedesig/public_html/celcount/index.php on line 63
+[03-May-2013 05:20:31] PHP Fatal error:  Call to undefined method DBAccess::query() in /home/wmedesig/public_html/celcount/index.php on line 63
+[05-May-2013 22:42:15] CSRF state token does not match one provided.
+[05-May-2013 23:28:39] PHP Parse error:  syntax error, unexpected '}' in /home/wmedesig/public_html/celcount/contactus.php on line 164
+[05-May-2013 23:28:41] PHP Parse error:  syntax error, unexpected '}' in /home/wmedesig/public_html/celcount/contactus.php on line 164
+[05-May-2013 23:29:27] PHP Parse error:  syntax error, unexpected T_STRING in /home/wmedesig/public_html/celcount/contactus.php on line 164
+[05-May-2013 23:29:29] PHP Parse error:  syntax error, unexpected T_STRING in /home/wmedesig/public_html/celcount/contactus.php on line 164
+[05-May-2013 23:39:10] PHP Fatal error:  Call to undefined method contents::select_email() in /home/wmedesig/public_html/celcount/contactus.php on line 17
+[05-May-2013 23:40:46] PHP Fatal error:  Call to undefined method contents::select_email() in /home/wmedesig/public_html/celcount/contactus.php on line 17
+[05-May-2013 23:42:11] PHP Fatal error:  Class 'PHPMailer' not found in /home/wmedesig/public_html/celcount/contactus.php on line 99
+[06-May-2013 01:45:23] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[06-May-2013 01:48:59] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[06-May-2013 01:53:39] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[06-May-2013 01:54:57] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[06-May-2013 01:56:05] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[06-May-2013 01:57:25] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[06-May-2013 02:03:18] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[06-May-2013 02:04:44] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[06-May-2013 02:06:13] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[06-May-2013 02:07:50] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[06-May-2013 02:09:36] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[06-May-2013 02:11:48] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[06-May-2013 02:11:58] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[07-May-2013 02:42:44] PHP Fatal error:  Call to a member function getFbMovement() on a non-object in /home/wmedesig/public_html/celcount/profile.php on line 114
+[07-May-2013 03:54:52] PHP Fatal error:  Call to a member function getPaging() on a non-object in /home/wmedesig/public_html/celcount/groups.php on line 9
+[07-May-2013 03:54:54] PHP Fatal error:  Call to a member function getPaging() on a non-object in /home/wmedesig/public_html/celcount/groups.php on line 9
+[07-May-2013 03:59:34] PHP Fatal error:  Call to a member function getPaging() on a non-object in /home/wmedesig/public_html/celcount/groups.php on line 9
+[07-May-2013 04:01:11] PHP Fatal error:  Call to undefined method contents::resize() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 110
+[07-May-2013 04:02:21] PHP Fatal error:  Call to undefined method contents::resize() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 110
+[07-May-2013 04:02:25] PHP Fatal error:  Call to undefined method contents::resize() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 110
+[07-May-2013 04:03:43] PHP Parse error:  syntax error, unexpected T_IF, expecting T_FUNCTION in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 198
+[07-May-2013 04:04:23] PHP Fatal error:  Call to a member function getSingleRecord() on a non-object in /home/wmedesig/public_html/celcount/groups.php on line 15
+[07-May-2013 04:04:26] PHP Fatal error:  Call to a member function getSingleRecord() on a non-object in /home/wmedesig/public_html/celcount/groups.php on line 15
+[07-May-2013 04:50:52] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 135
+[07-May-2013 06:09:02] PHP Fatal error:  Call to a member function getUserIdByFaceBookId() on a non-object in /home/wmedesig/public_html/celcount/groups.php on line 10
+[07-May-2013 06:09:04] PHP Fatal error:  Call to a member function getUserIdByFaceBookId() on a non-object in /home/wmedesig/public_html/celcount/groups.php on line 10
+[07-May-2013 22:58:25] PHP Parse error:  syntax error, unexpected '}' in /home/wmedesig/public_html/celcount/callback.php on line 216
+[07-May-2013 22:58:45] PHP Parse error:  syntax error, unexpected '}' in /home/wmedesig/public_html/celcount/callback.php on line 216
+[07-May-2013 22:58:59] PHP Parse error:  syntax error, unexpected '}' in /home/wmedesig/public_html/celcount/callback.php on line 215
+[07-May-2013 22:59:02] PHP Parse error:  syntax error, unexpected '}' in /home/wmedesig/public_html/celcount/callback.php on line 215
+[07-May-2013 22:59:14] PHP Parse error:  syntax error, unexpected '}' in /home/wmedesig/public_html/celcount/callback.php on line 212
+[07-May-2013 23:15:05] PHP Fatal error:  Cannot use object of type stdClass as array in /home/wmedesig/public_html/celcount/callback.php on line 111
+[07-May-2013 23:28:47] PHP Parse error:  syntax error, unexpected T_ELSE in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 113
+[07-May-2013 23:32:31] PHP Parse error:  syntax error, unexpected T_ELSE in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 113
+[07-May-2013 23:33:09] PHP Parse error:  syntax error, unexpected T_ELSE in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 113
+[07-May-2013 23:39:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wmedesig/public_html/celcount/callback.php:91) in /home/wmedesig/public_html/celcount/callback.php on line 133
+[08-May-2013 05:42:49] PHP Fatal error:  Call to a member function getFirstTwitterMovement() on a non-object in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 299
+[13-May-2013 00:03:17] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:03:25] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:04:24] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:04:34] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:05:18] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:05:25] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:05:47] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:09:05] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:10:26] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:13:59] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:17:33] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:17:43] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:23:08] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:26:19] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 00:26:40] PHP Fatal error:  Call to undefined method Facebook::throwAPIException() in /home/wmedesig/public_html/celcount/base_facebook.php on line 810
+[13-May-2013 00:45:16] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[13-May-2013 00:45:29] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[13-May-2013 00:54:11] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[13-May-2013 00:54:21] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[13-May-2013 00:54:46] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[13-May-2013 00:55:16] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[13-May-2013 00:57:12] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[13-May-2013 00:57:23] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[13-May-2013 00:59:16] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[13-May-2013 01:02:49] PHP Fatal error:  Call to a member function get_lastest_five_news() on a non-object in /home/wmedesig/public_html/celcount/inc/news.php on line 2
+[13-May-2013 01:26:07] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:33:23] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:39:09] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:42:12] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:51:09] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:51:53] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:52:13] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:53:55] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:53:59] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:54:35] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:55:25] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:56:36] PHP Parse error:  syntax error, unexpected T_EXIT, expecting ',' or ';' in /home/wmedesig/public_html/celcount/index.php on line 40
+[13-May-2013 01:56:49] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:57:10] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:58:11] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 01:59:18] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 02:00:56] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 02:00:57] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 02:01:00] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 02:08:14] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 02:18:57] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 02:26:51] PHP Fatal error:  Uncaught FacebookApiException: Unsupported operation
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 02:27:52] PHP Fatal error:  Uncaught FacebookApiException: Unsupported operation
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 02:31:03] PHP Fatal error:  Uncaught FacebookApiException: Unsupported operation
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 02:33:22] PHP Fatal error:  Uncaught FacebookApiException: Unsupported operation
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 02:34:27] PHP Fatal error:  Uncaught FacebookApiException: Unsupported operation
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 02:52:23] PHP Fatal error:  Cannot redeclare class Facebook in /home/wmedesig/public_html/celcount/src/facebook.php on line 160
+[13-May-2013 02:53:23] PHP Fatal error:  Uncaught FacebookApiException: Unsupported operation
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 02:54:22] PHP Fatal error:  Uncaught FacebookApiException: Unsupported operation
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 03:10:14] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 04:46:35] PHP Parse error:  syntax error, unexpected $end in /home/wmedesig/public_html/celcount/favorities.php on line 98
+[13-May-2013 04:51:53] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 05:16:50] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 05:17:39] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 05:19:09] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 05:51:36] PHP Parse error:  syntax error, unexpected $end in /home/wmedesig/public_html/celcount/favorities.php on line 98
+[13-May-2013 06:32:24] PHP Fatal error:  Call to undefined method contents::getAllUserIdsByGroupId() in /home/wmedesig/public_html/celcount/group_memebers.php on line 4
+[13-May-2013 16:18:18] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 16:18:30] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 16:20:13] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 16:21:13] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 16:23:07] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 17:45:07] CSRF state token does not match one provided.
+[13-May-2013 22:09:27] PHP Fatal error:  Call to undefined method contents::getAllUserIdsByGroupId() in /home/wmedesig/public_html/celcount/group_memebers.php on line 4
+[13-May-2013 22:09:40] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 22:12:20] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 22:13:16] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/favorities.php on line 223
+[13-May-2013 22:13:24] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/favorities.php on line 223
+[13-May-2013 22:19:07] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/favorities.php on line 223
+[13-May-2013 22:22:37] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/favorities.php on line 223
+[13-May-2013 22:49:35] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 23:01:27] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 23:22:06] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'wmedesig'@'localhost' (using password: NO) in /home/wmedesig/public_html/celcount/addToFavmember.php on line 6
+[13-May-2013 23:22:06] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/wmedesig/public_html/celcount/addToFavmember.php on line 6
+[13-May-2013 23:22:06] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/wmedesig/public_html/celcount/addToFavmember.php on line 7
+[13-May-2013 23:26:05] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[13-May-2013 23:51:59] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 00:17:35] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 00:19:18] PHP Fatal error:  Call to undefined method contents::getAllGroupsCount() in /home/wmedesig/public_html/celcount/inc/home_compare_group.php on line 2
+[14-May-2013 00:22:03] PHP Fatal error:  Call to undefined method contents::getAllGroupsCount() in /home/wmedesig/public_html/celcount/inc/home_compare_group.php on line 2
+[14-May-2013 00:22:58] PHP Fatal error:  Call to undefined method contents::getAllGroupsCount() in /home/wmedesig/public_html/celcount/inc/home_compare_group.php on line 2
+[14-May-2013 00:24:20] PHP Fatal error:  Call to undefined method contents::getAllGroupsCount() in /home/wmedesig/public_html/celcount/inc/home_compare_group.php on line 2
+[14-May-2013 00:26:05] PHP Fatal error:  Call to undefined method contents::getAllGroupsCount() in /home/wmedesig/public_html/celcount/inc/home_compare_group.php on line 2
+[14-May-2013 00:26:56] PHP Fatal error:  Call to undefined method contents::getAllGroupsCount() in /home/wmedesig/public_html/celcount/inc/home_compare_group.php on line 2
+[14-May-2013 00:27:57] PHP Fatal error:  Call to undefined method contents::getAllGroupsCount() in /home/wmedesig/public_html/celcount/inc/home_compare_group.php on line 3
+[14-May-2013 00:28:40] PHP Fatal error:  Call to undefined method contents::getAllGroupsCount() in /home/wmedesig/public_html/celcount/inc/home_compare_group.php on line 3
+[14-May-2013 00:28:42] PHP Fatal error:  Call to undefined method contents::getAllGroupsCount() in /home/wmedesig/public_html/celcount/inc/home_compare_group.php on line 3
+[14-May-2013 00:30:01] PHP Fatal error:  Call to undefined method contents::getAllGroupsCount() in /home/wmedesig/public_html/celcount/inc/home_compare_group.php on line 3
+[14-May-2013 00:31:02] PHP Fatal error:  Call to undefined method contents::getAllGroupsCount() in /home/wmedesig/public_html/celcount/inc/home_compare_group.php on line 3
+[14-May-2013 01:04:00] PHP Parse error:  syntax error, unexpected ')' in /home/wmedesig/public_html/celcount/further-groups.php on line 13
+[14-May-2013 01:25:49] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/favorities.php on line 249
+[14-May-2013 01:26:45] PHP Fatal error:  Uncaught CurlException: 6: name lookup timed out
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 886
+[14-May-2013 02:01:05] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 02:17:22] PHP Fatal error:  Call to undefined method contents::getAllUserIdsByGroupId() in /home/wmedesig/public_html/celcount/group_memebers.php on line 4
+[14-May-2013 02:18:40] PHP Fatal error:  Call to undefined method contents::getAllUserIdsByGroupId() in /home/wmedesig/public_html/celcount/group_memebers.php on line 4
+[14-May-2013 03:38:17] PHP Fatal error:  Call to a member function api() on a non-object in /home/wmedesig/public_html/celcount/member_detail.php on line 16
+[14-May-2013 03:40:09] PHP Fatal error:  Uncaught FacebookApiException: Unsupported operation
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 03:40:38] PHP Fatal error:  Uncaught FacebookApiException: Unsupported operation
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 04:22:19] PHP Fatal error:  Class 'Facebook' not found in /home/wmedesig/public_html/celcount/create-group.php on line 9
+[14-May-2013 18:24:29] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 18:24:49] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 18:26:03] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 18:26:10] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 18:26:22] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 18:26:39] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 22:06:49] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 22:10:41] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 22:13:03] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/profile.php on line 244
+[14-May-2013 22:29:51] PHP Fatal error:  Call to a member function getAllUserIdsByGroupId() on a non-object in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 284
+[14-May-2013 23:06:32] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 287
+[14-May-2013 23:07:53] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[14-May-2013 23:07:59] PHP Parse error:  syntax error, unexpected $end, expecting T_STRING or T_VARIABLE or '{' or '$' in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 287
+[14-May-2013 23:24:45] PHP Parse error:  syntax error, unexpected $end in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 98
+[14-May-2013 23:35:52] PHP Fatal error:  Class 'contents' not found in /home/wmedesig/public_html/celcount/inc/ini.php on line 6
+[15-May-2013 01:09:54] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[15-May-2013 01:11:01] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[15-May-2013 01:11:11] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[15-May-2013 01:11:22] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/profile.php on line 244
+[15-May-2013 01:11:57] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/profile.php on line 244
+[15-May-2013 01:11:57] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[15-May-2013 01:31:05] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[15-May-2013 03:17:08] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[15-May-2013 04:11:20] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[15-May-2013 04:14:59] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[15-May-2013 06:23:20] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[15-May-2013 16:11:06] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[15-May-2013 16:11:34] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[15-May-2013 16:12:20] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[15-May-2013 23:00:18] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[15-May-2013 23:02:14] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[15-May-2013 23:03:00] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[16-May-2013 02:14:47] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[16-May-2013 07:54:58] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[16-May-2013 16:56:48] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[16-May-2013 20:31:38] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[16-May-2013 20:32:23] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[16-May-2013 20:32:51] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[16-May-2013 22:11:13] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[17-May-2013 05:31:47] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[17-May-2013 05:32:08] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[17-May-2013 05:33:56] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[17-May-2013 05:34:11] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[17-May-2013 05:37:28] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[19-May-2013 04:19:30] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[19-May-2013 04:20:30] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[19-May-2013 04:21:09] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[19-May-2013 04:21:12] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[19-May-2013 18:46:03] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[19-May-2013 20:56:39] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[19-May-2013 21:47:16] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[19-May-2013 23:31:01] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[19-May-2013 23:31:31] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[20-May-2013 02:18:24] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[20-May-2013 02:29:29] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[20-May-2013 06:12:30] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[20-May-2013 16:47:37] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[20-May-2013 17:56:15] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[20-May-2013 18:38:03] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[21-May-2013 16:24:39] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[21-May-2013 16:25:08] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[21-May-2013 19:38:07] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[21-May-2013 19:38:37] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[21-May-2013 19:42:11] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[21-May-2013 19:43:15] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[21-May-2013 19:46:04] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[21-May-2013 19:49:56] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[21-May-2013 19:52:50] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[21-May-2013 20:07:46] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[21-May-2013 20:17:41] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[21-May-2013 20:19:22] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[21-May-2013 20:26:46] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[21-May-2013 20:29:09] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[21-May-2013 20:32:25] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[21-May-2013 20:34:49] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[21-May-2013 21:47:15] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[21-May-2013 21:58:03] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[21-May-2013 22:06:40] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[22-May-2013 02:24:44] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[22-May-2013 23:20:28] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[23-May-2013 00:19:23] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[23-May-2013 00:19:50] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[23-May-2013 00:30:29] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[23-May-2013 00:31:37] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[23-May-2013 00:31:41] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[23-May-2013 00:31:41] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[23-May-2013 00:52:52] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[23-May-2013 01:06:49] PHP Warning:  Invalid argument supplied for foreach() in /home/wmedesig/public_html/celcount/classes/contentClass.php on line 303
+[23-May-2013 03:11:16] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[23-May-2013 04:26:02] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[23-May-2013 06:34:41] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[23-May-2013 22:25:21] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[24-May-2013 00:01:57] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[24-May-2013 00:42:18] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[27-May-2013 02:30:00] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[27-May-2013 03:00:04] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[27-May-2013 17:41:09] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[27-May-2013 23:55:06] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[28-May-2013 00:10:34] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[28-May-2013 00:14:31] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[28-May-2013 16:12:54] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[29-May-2013 06:06:54] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
+[29-May-2013 22:26:38] PHP Fatal error:  Uncaught GraphMethodException: Unsupported get request.
+  thrown in /home/wmedesig/public_html/celcount/base_facebook.php on line 1106
